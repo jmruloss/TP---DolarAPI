@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f7;
+    color: #222;
+  }
+  
+  .contenedor {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #176b4d;
+  }
+  
+  .subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .panel {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  h2 {
+    color: #176b4d;
+  }
+  
+  button {
+    background-color: #176b4d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  button:hover {
+    background-color: #105239;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #e6f2ec;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .resultado {
+    background-color: #e6f2ec;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .resultado h2 {
+    font-size: 28px;
+  }
+  
+  .error {
+    color: #b00020;
+  }
+  
+  small {
+    color: #555;
+  }
+  
+  @media (max-width: 600px) {
+    .contenedor {
+      margin: 10px auto;
+      padding: 12px;
+    }
+  
+    .panel {
+      padding: 12px;
+    }
+  
+    th, td {
+      padding: 8px 5px;
+      font-size: 13px;
+    }
+  
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  }
+  
